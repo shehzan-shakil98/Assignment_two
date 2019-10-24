@@ -1,0 +1,93 @@
+body{
+	margin: 0;
+
+}
+
+section{
+
+height: 100vh;
+
+background-image: url("../images/fav1.png");
+
+background-repeat: no-repeat;
+
+background-color: white;
+
+background-position: right bottom;
+
+background-size: 20%;
+}
+header{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+}
+div{
+    width: 20%;
+    float: left;
+}
+.logo{
+    color: #007496;
+    font-size: 25px;
+    text-decoration: none;
+    font-weight: 900;
+}
+nav{
+    width: 80%;
+    float: right;
+}
+nav ul{
+    padding: 0;
+    margin: 0;
+    text-align: right;
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+}
+nav ul li a{
+	text-decoration: none;
+	text-transform: uppercase;
+	color:#594a5f;
+	font-size: 18px;
+	padding: 10px 20px;
+	display: block;
+	transition-duration: background-color .4s;
+	border-radius: 30px;
+}
+nav ul li a:hover{
+	color:#fff;
+	background-color: #00a1dc
+}
+.button{}
+.button h2{
+	border-bottom: 2px solid #e0d6c7;
+    color: #ac7511;
+    font-size: 25px;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+.button p{
+	font-size: 16px;
+    text-align: justify;
+    line-height: 19px;
+    margin: 12px;
+}
+.button ul li{
+	list-style-type: none;
+
+}
+.button ul li a{text-decoration: none;
+    float: right;
+    font-size: 17px;
+    background: #fff;
+    color: darkblue;
+    border-radius: 30px;
+    padding: 4px 10px;
+    display: block;
+}
+.button ul li a:hover{
+	color: #b7801c;
+	background-color:#F3F4F6;
+}
